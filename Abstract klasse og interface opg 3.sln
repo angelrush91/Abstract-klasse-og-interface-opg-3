@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31903.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract klasse og interface opg 3", "Abstract klasse og interface opg 3\Abstract klasse og interface opg 3.csproj", "{00B01689-75BE-4CA9-BF5B-08B39CF213A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00B01689-75BE-4CA9-BF5B-08B39CF213A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B01689-75BE-4CA9-BF5B-08B39CF213A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B01689-75BE-4CA9-BF5B-08B39CF213A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B01689-75BE-4CA9-BF5B-08B39CF213A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6824C56B-09F0-4C03-B39F-127951BB9135}
+	EndGlobalSection
+EndGlobal
