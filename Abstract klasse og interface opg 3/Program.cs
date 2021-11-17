@@ -1,23 +1,28 @@
-﻿using System;
+﻿using Abstract_klasse_og_interface_opg_3;
+using System;
 
 // See https://aka.ms/new-console-template for more information
 //Console.WriteLine("Hello, World!");
 
 Bil bil = new Bil();
+Bil bil2 = new Bil();
+Bil bil3 = new Bil();
 
-Console.WriteLine("Indtast mængde brændstof(i liter): ")
-int x = console.ReadLine();
+bil.getsetBrændstof = 100;
+bil2.getsetBrændstof = 0;
+bil3.getsetBrændstof = 50;
 
-if (x > 0)
+Bil[] biler = { bil, bil2, bil3 };
+for (int i = 0; i < biler.Length; i++)
 {
-    Bil.Fuel = true;
+    if (biler[i].Fuel(biler[i].getsetBrændstof) == true)
+    {
+        biler[i].Kør();
+    }
+    else
+    {
+        Console.WriteLine("ha der er ikke noget brændstof ");
+    }
 }
 
-if (Fuel)
-{
-    Console.WriteLine("Bilen kan køre");
-}
-else
-{
-    Console.WriteLine("Din bimmer er tom, fyld den op!")
-}
+

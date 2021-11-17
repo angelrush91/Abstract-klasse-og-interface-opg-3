@@ -8,23 +8,40 @@ namespace Abstract_klasse_og_interface_opg_3
 {
     internal class Bil : ITransportmiddel
     {
-        private string Kør;
-        private bool Fuel;
-        Bil.Fuel = false;
         
-        public Bil(string Kør, bool Fuel)
+        private int Brændstof;
+
+        public Bil()
         {
-            this.Kør = Kør;
-            this.Fuel = Fuel;
+        }
+
+        public Bil(string Kør, int Brændstof)
+        {
+            
+            this.Brændstof = Brændstof;
 
         }
 
-        public static bool Fuel()
+        public int getsetBrændstof
         {
-            if (Brændstof)
+            get { return Brændstof; }
+            set { Brændstof = value; }
+        }
+
+
+        public bool Fuel(int a)
+        {
+            if (a > 0)
             {
-                Console.WriteLine("den kan køre");
-            }   
+                return true;
+            }
+            else
+                return false;
+
+        }
+        public void Kør()
+        {
+            Console.WriteLine("bilen kører");
         }
     }
 }

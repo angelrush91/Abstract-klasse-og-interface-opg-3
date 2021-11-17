@@ -8,7 +8,7 @@ namespace Abstract_klasse_og_interface_opg_3
 {
     interface ITransportmiddel
     {
-        bool Fuel();
+        bool Fuel(int a);
         void Kør();
     }
 }
